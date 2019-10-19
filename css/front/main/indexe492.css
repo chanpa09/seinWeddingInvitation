@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+.product_wrap{border: 1px solid #ebebeb;}
+
+.btn-more {cursor: pointer}
+
+.swiper-pagination-bullet-active {background:white;}
+
+.slogan-nomal, .slogan-nomal a {color:#fff}
+
+.slogan-nomal a:hover { color:#fff; text-decoration: none;}
+
+#main-brand .swiper-slide-active {z-index:1;}
+
+.best-product div[class*="col-"].section-title {
+    padding-bottom:0;
+}
+
+.best-product .show_product_wrap {
+    padding:30px 40px;
+    border-top:1px solid #ebdddd;
+    border-bottom:1px solid #ebdddd;
+}
+
+.best-product .product-wrap {
+    background:#fff;
+}
+
+#best-md .show_product_wrap {
+    border-color:rgba(237,221,221,1);
+    background:rgba(237,221,221,0.2);
+}
+
+#best-monthly .show_product_wrap {
+    border-color:rgba(193,230,213,1);
+    background:rgba(193,230,213,0.2);
+}
+
+#best-review {
+    padding-bottom:120px;
+}
+
+#best-review .show_product_wrap {
+    border-color:rgba(221,226,232,1);
+    background:rgba(221,226,232,0.2);
+}
+
+#order-review h5 {
+    font-size: 2.0rem;
+}
+
+#order-review .order_info span {
+    display:inline-block;
+    text-align:center;
+    padding:0 10px;
+    height : 20px;
+    font-size: 1.2rem;
+}
+
+.review-link { width: 100%; height: 25px; line-height: 25px; font-size:12px; vertical-align: middle;}
+
+.mobile #main-slogan {background:#fff;}
+
+.mobile .benefit_banner {padding:10px 0;}
+.mobile .benefit_banner + .row {padding:10px 0 !important;}
+
+.mobile .btn_group .add_btn {float:left; width:33.3333%; position:relative;}
+.mobile .btn_group .add_btn:after {display:block; content:''; width:1px; height: 70px; position:absolute; background:#ddd; right:1px; top:10px;}
+.mobile .btn_group .add_btn:last-child:after {display:none;}
+.mobile .btn_group .add_btn a {display:block; width:80%; height:90px; background-size:50% !important; background-position:50% 20% !important; margin:0 auto; color:#e4b6b9;}
+
+.mobile .btn_group .add_btn span {position:absolute; width:100%; text-align:center; bottom:10%; left:0;}
+
+.mobile #best-md {padding-top:0;}
+.mobile #best-md .title {color:#b76767;}
+
+.mobile #best-monthly .title {color:#4c9473;}
+
+.mobile #best-review {padding-bottom:0;}
+.mobile #best-review .title {color:#53759e;}
+
+.mobile .small_banner {margin:50px 0;}
+
+.mobile .best-product .title {font-size:2rem;}
+.mobile .best-product .show_product_wrap {background:none !important; border-width: 2px; padding:0.5rem !important;}
+
+.mobile .best-product .product-wrap {border:0; margin-bottom:1.5rem;}
+.mobile .best-product .product-wrap .title-wrap {padding:0.5rem 0; border:0; color:#3f6657;}
+.mobile .best-product .product-wrap .title-wrap .title {font-size:1.3rem; padding-bottom:0; height:17px;}
+.mobile .best-product .product-wrap .title-wrap .desc {font-size:1.2rem; height:17px;}
+
+.mobile .best-product .product-wrap .price-wrap {padding:0;}
+.mobile .best-product .product-wrap .price {color:#3f6657;}
+
+/*
+.mobile .best-product .product-wrap .img-wrap {float:left; width:45%;}
+.mobile .best-product .product-wrap .title-wrap {float:left; width:55%; margin:0; border-bottom:0; padding:1rem;}
+*/
+
+/*
+.mobile .best-product .product-wrap .price-wrap {clear:both;}
+*/
+
+/* mainPopup */
+.mainPopupContainer {position:fixed; z-index:2000; background:#fff; box-shadow:5px 5px 15px rgba(104,57,60,0.3);}
+.mainPopupContainer > div {display:none;}
+.mainPopupContainer .carousel-indicators-wrap .carousel-indicators {bottom:30px;}
+.mainPopupContainer .carousel-indicators-wrap .carousel-indicators li {background:#fff;}
+.mainPopupContainer .carousel-indicators-wrap .carousel-indicators .active {background:#ffe400;}
+.mainPopupContainer .carousel-inner > .item > img {width:100%; height:100%;}
+.mainPopupContainer .popBottom {height:30px; background:black; text-align:right; line-height:27px;}
+.mainPopupContainer .popBottom input[type="checkbox"] {position:relative; top:3px;}
+.mainPopupContainer .popBottom span {color:#fff; font-size: 1.2rem; font-weight:100;}
+.mainPopupContainer .popBottom a {margin-left:5px; margin-right:1px;}
+
+#main-popup.mo .mainPopupContainer {position:relative;}
